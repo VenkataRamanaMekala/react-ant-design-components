@@ -11,11 +11,11 @@ import {
   Slider,
   Upload,
   message,
-  Tag,
+  
   Space,
 } from "antd";
 
-import { UploadOutlined, CloseOutlined } from "@ant-design/icons";
+import { UploadOutlined,  } from "@ant-design/icons";
 
 import type { UploadFile } from "antd/es/upload/interface";
 
