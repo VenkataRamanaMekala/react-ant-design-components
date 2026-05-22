@@ -83,7 +83,6 @@ const RegisterForm: React.FC = () => {
         }}
       >
         <Form layout="vertical" form={form} onFinish={handleSubmit}>
-          {/* First Name */}
           <Form.Item
             label="First Name"
             name="firstName"
@@ -101,7 +100,6 @@ const RegisterForm: React.FC = () => {
             />
           </Form.Item>
 
-          {/* Last Name */}
           <Form.Item
             label="Last Name"
             name="lastName"
@@ -119,7 +117,6 @@ const RegisterForm: React.FC = () => {
             />
           </Form.Item>
 
-          {/* Gender */}
           <Form.Item
             label="Gender"
             name="gender"
@@ -136,7 +133,6 @@ const RegisterForm: React.FC = () => {
             </Radio.Group>
           </Form.Item>
 
-          {/* Single Select */}
           <Form.Item label="Choose an Option" name="singleOption">
             <Select
               placeholder="Select Option"
@@ -150,7 +146,6 @@ const RegisterForm: React.FC = () => {
             </Select>
           </Form.Item>
 
-          {/* Multiple Checkbox */}
           <Form.Item label="Select Multiple Options" name="multiOptions">
             <Checkbox.Group>
               <Space direction="vertical">
@@ -163,7 +158,6 @@ const RegisterForm: React.FC = () => {
             </Checkbox.Group>
           </Form.Item>
 
-          {/* Auto Suggest */}
           <Form.Item label="Auto Suggest" name="flavor">
             <Select
               showSearch
@@ -180,7 +174,6 @@ const RegisterForm: React.FC = () => {
             />
           </Form.Item>
 
-          {/* Color Picker */}
           <Form.Item
             label="Select your favorite color"
             name="favoriteColor"
@@ -197,7 +190,6 @@ const RegisterForm: React.FC = () => {
             />
           </Form.Item>
 
-          {/* Date Picker */}
           <Form.Item label="Select Date" name="date">
             <DatePicker
               style={{
@@ -206,8 +198,7 @@ const RegisterForm: React.FC = () => {
             />
           </Form.Item>
 
-          {/* Slider */}
-          {/* Slider */}
+    
           <Form.Item label="Scroll to see range value">
             <div
               style={{
@@ -231,8 +222,7 @@ const RegisterForm: React.FC = () => {
             </div>
           </Form.Item>
 
-          {/* Fruits Multi Select */}
-          {/* Select Fruits */}
+         
           <Form.Item label="Select Fruits">
             <Select
               mode="multiple"
@@ -251,7 +241,6 @@ const RegisterForm: React.FC = () => {
             </Select>
           </Form.Item>
 
-          {/* Quantity */}
           <Form.Item label="Select Quantity">
             <Space>
               <Button
@@ -279,7 +268,6 @@ const RegisterForm: React.FC = () => {
             </Space>
           </Form.Item>
 
-          {/* Upload */}
           <Form.Item label="Select File">
             <Upload
               beforeUpload={() => false}
@@ -290,7 +278,6 @@ const RegisterForm: React.FC = () => {
             </Upload>
           </Form.Item>
 
-          {/* Long Message */}
           <Form.Item label="Long Message" name="message">
             <TextArea
               rows={5}
@@ -301,7 +288,6 @@ const RegisterForm: React.FC = () => {
             />
           </Form.Item>
 
-          {/* Submit */}
           <Form.Item>
             <div
               style={{
